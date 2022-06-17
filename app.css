@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  border-radius: 15px;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.panel {
+  border-radius: 10px;
+  padding: 15px 25px;;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+.pricing-img {
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.pricing-header {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.pricing-features {
+  margin: 50px 0 25px;
+  color: #fff;
+}
+
+.pricing-features-item {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 5px 0;
+}
+
+.pricing-button {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
+}
+
+
+.is-featured-one {
+    background-color: #fff;
+    color: #E28525;
+}
+
+.is-featured-one:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+}
+
+.is-featured-two {
+  background-color: #fff;
+  color: #016972;
+}
+
+.is-featured-two:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+.is-featured-three {
+  background-color: #fff;
+  color: #00403F;
+}
+
+.is-featured-three:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+}
+
+.one{
+  background-color: #E28525;
+  max-width: 320px;
+  border-radius: 10px 0 0px 10px;
+}
+
+.two {
+  background: #016972;
+  max-width: 320px;
+}
+
+.three {
+ background-color: #00403F;
+ max-width: 320px;
+ border-radius: 0px 10px 10px 0px
+}
+
+@media(min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
+    }
+}
+
+.one{
+  background-color: #E28525;
+  max-width: 320px;
+}
+
+.two {
+  background: #016972;
+  max-width: 320px;
+}
+
+.three {
+ background-color: #00403F;
+ max-width: 320px;
+}
